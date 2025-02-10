@@ -1,0 +1,66 @@
+#root {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 1rem;
+  text-align: center;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+header {
+  font-size: 50px;
+  border-bottom: 1px solid black;
+  padding-bottom: 30px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.title {
+  transition: filter 0.5s ease;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+
+
+.title:hover {
+  filter: drop-shadow(0 0 10px #000000);
+  transform: scale();
+  /* color: #d3d6cd; */
+}
+
+
+.grid {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+
+.card {
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px double black;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+.card:hover {
+  transform: scale(1.07);
+}
+
+.card p{
+  font-size: 20px;
+}

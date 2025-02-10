@@ -1,0 +1,28 @@
+.data-table body {
+  font-family: sans-serif;
+}
+
+.data-table table {
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.data-table td,
+th {
+  padding: 4px;
+  border-bottom: 1px solid #ddd;
+  text-align: start;
+}
+
+.data-table th {
+  vertical-align: top;
+}
+
+.data-table button{
+  margin-top: 10px;
+}
+
+.data-table{
+  display: inline-block;
+
+}
