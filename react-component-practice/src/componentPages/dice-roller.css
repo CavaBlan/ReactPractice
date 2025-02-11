@@ -1,0 +1,75 @@
+
+.dice-roller input{
+  width: 100px;
+}
+
+.dice-roller .dice-container{
+  padding: 30px 0;
+  margin: 20px auto;
+  min-height: 300px;
+  width: 500px;
+  background-color: rgb(216, 215, 215);
+  border-radius: 25px;
+  border: 5px solid rgb(100, 100, 100);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  justify-content: center;
+}
+
+.dice-roller .dice {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.dice-roller .dot {
+  width: 20px;
+  height: 20px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.dice-roller .center {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.dice-roller .top-left {
+  top: 20%;
+  left: 20%;
+}
+
+.dice-roller .top-right {
+  top: 20%;
+  right: 20%;
+}
+
+.dice-roller .middle-left {
+  top: 50%;
+  left: 20%;
+  transform: translateY(-50%);
+}
+
+.dice-roller .middle-right {
+  top: 50%;
+  right: 20%;
+  transform: translateY(-50%);
+}
+
+.dice-roller .bottom-left {
+  bottom: 20%;
+  left: 20%;
+}
+
+.dice-roller .bottom-right {
+  bottom: 20%;
+  right: 20%;
+}

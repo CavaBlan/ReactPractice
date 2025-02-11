@@ -1,0 +1,23 @@
+.star-rating body {
+  font-family: sans-serif;
+}
+
+.star-rating{
+  margin-top: 30px;
+}
+
+.star-rating .star-icon {
+  --icon-size: 50px;
+
+  cursor: pointer;
+  height: var(--icon-size);
+  width: var(--icon-size);
+}
+
+.star-rating .star-icon-filled {
+  fill: yellow;
+}
+
+.star-rating .star-icon :hover{
+  fill: yellow;
+}

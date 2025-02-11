@@ -20,6 +20,7 @@ header {
 
 h2{
   font-size: 30px;
+  margin: 10px;
 }
 
 .title {
@@ -28,8 +29,6 @@ h2{
   color: black;
   font-weight: bold;
 }
-
-
 
 .title:hover {
   filter: drop-shadow(0 0 10px #000000);
@@ -61,6 +60,26 @@ h2{
   transform: scale(1.07);
 }
 
+.difficulty-tag{
+  border: 1px solid;
+  border-radius: 50px;
+  width: 80px;
+  margin: 15px auto;
+}
+
+.easy{
+  color: green;
+}
+
+.medium{
+  color: orange;
+}
+
+.hard{
+  color: red;
+}
+
 .card p{
+  margin-top: 30px;
   font-size: 20px;
 }

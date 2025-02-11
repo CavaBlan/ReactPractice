@@ -1,5 +1,5 @@
 import { useState } from "react";
-import "./dataTable.css"
+import "./data-table.css"
 import users from "./data/user-table-data.json"
 
 
